@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "df5348e1-5adf-470b-8f95-26bbcd9061bc",
+		"name": "homeAssignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5071/api/values/login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"UserName\":\"ido\",\"Password\":\"ad345ew\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5071/api/values/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5071",
+					"path": [
+						"api",
+						"values",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5071/api/values/information",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"UserId\":\"A78b54gx0-uhj8\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5071/api/values/information",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5071",
+					"path": [
+						"api",
+						"values",
+						"information"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
